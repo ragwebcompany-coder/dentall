@@ -368,7 +368,7 @@ footer{background:var(--cream);color:var(--muted);padding:54px 0 34px;border-top
   .hero .shell{width:calc(100% - 52px)}
   .hero-text{text-align:center}
   .hero-text .eyebrow{font-size:9.5px;letter-spacing:.11em;margin-bottom:16px;justify-content:center}
-  .hero h1{font-size:clamp(20px,5vw,28px);line-height:1.32;letter-spacing:.003em;word-spacing:.03em}
+  .hero h1{font-size:clamp(25px,6.6vw,34px);line-height:1.28;letter-spacing:.003em;word-spacing:.03em}
   .hero h1 br{display:none}
   .hero h1 .word{padding-top:.08em;padding-bottom:.05em;margin-top:0;margin-bottom:0}
   .hero-copy{font-size:14px;line-height:1.62;margin:14px auto 26px}
