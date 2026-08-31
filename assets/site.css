@@ -5,7 +5,8 @@
    ===================================================================== */
 :root{
   --accent:#5a2b8c;--accent-deep:#45206b;--gold:#f3941d;--gold-ink:#df7c08;
-  --hero-bg:linear-gradient(100deg, rgba(246,241,234,.98) 0%, rgba(246,241,234,.88) 36%, rgba(246,241,234,.45) 60%, rgba(246,241,234,.05) 100%), url('assets/img/slider-04.jpg');
+  --hero-bg:url('img/hero-dental.jpg');
+  --hero-cream:#fdf4ea;
 }
 /* purple + orange accents (was all-blue) */
 .eyebrow{color:var(--gold-ink)}
@@ -14,6 +15,17 @@
 .tm .role{color:var(--gold-ink)}
 .hero-meta .m strong{color:var(--accent)}
 .marquee span:nth-child(even){color:var(--gold-ink)}
+
+/* ---------- hero artwork ---------- */
+/* Cream key-visual sits right; the wash keeps the left column readable. */
+.hero{background-color:var(--hero-cream);background-position:right center}
+.hero::before{background:linear-gradient(100deg,
+  rgba(253,244,234,.92) 0%, rgba(253,244,234,.72) 34%,
+  rgba(253,244,234,.22) 56%, rgba(253,244,234,0) 74%)}
+/* mobile drops the artwork (premium.css) — keep the white card look */
+@media (max-width:560px){
+  .hero{background-color:#fff}
+}
 
 /* ---------- brand logo ---------- */
 .brand-logo{height:42px;width:auto;pointer-events:auto}
