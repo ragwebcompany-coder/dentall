@@ -160,3 +160,14 @@
   .cta{padding:60px 0}
   .faq summary{font-size:17px}
 }
+
+/* ---------- online booking (Calendly) ---------- */
+#rantevou{scroll-margin-top:96px}
+.booking .booking-card{margin-top:34px;border:1px solid var(--line);border-radius:var(--r);
+  overflow:hidden;background:var(--white);box-shadow:var(--shadow-l)}
+.booking .calendly-inline-widget{min-width:320px;height:700px;width:100%}
+.booking .booking-note{margin:18px 0 0;font-size:14px;color:var(--muted);text-align:center}
+.booking .booking-note a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+@media(max-width:560px){
+  .booking .calendly-inline-widget{height:820px}
+}
